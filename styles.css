@@ -1,0 +1,59 @@
+
+.obi-logo {
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+}
+
+.heading-text {
+    color: #ffffff;
+    text-align: center;
+    font-size: 150%;
+}
+
+.studio-picture {
+    width: 500px;
+    margin: 10px 30px;
+}
+
+.about-me {
+    color: #ffffff;
+    text-align: right;
+    margin: 150px auto;
+    font-size: 175%;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.film {
+    color: #ffffff;
+    text-align: right;
+    margin: 150px auto;
+    font-size: 150%;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.recording-mixing {
+    color: #ffffff;
+    text-align: left;
+    margin: 150px auto;
+    font-size: 150%;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+ 
+  @media (max-width: 1500px) {
+    .flex-container {
+      flex-direction: column;
+    }
+ }
