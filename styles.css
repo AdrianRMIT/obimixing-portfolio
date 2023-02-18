@@ -1,5 +1,9 @@
+/* TO DO:
+Reduce the duplicated code by using body instead of multiple classes */
 
-.obi-logo {
+
+
+#obi-logo {
     display: block;
     width: 200px;
     margin: 15px auto;
