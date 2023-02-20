@@ -1,7 +1,12 @@
-/* TO DO:
-Reduce the duplicated code by using body instead of multiple classes */
+@font-face {
+    font-family: obi-text-bold;
+    src: url(uni-sans.heavy-caps.otf);
+}
 
-
+@font-face {
+    font-family: obi-text-thin;
+    src: url(uni-sans.thin-caps.otf);
+}
 
 #obi-logo {
     display: block;
@@ -10,44 +15,43 @@ Reduce the duplicated code by using body instead of multiple classes */
 }
 
 .heading-text {
+    font-family: obi-text-bold;
     color: #ffffff;
     text-align: center;
-    font-size: 150%;
 }
 
-.studio-picture {
-    width: 500px;
-    margin: 10px 30px;
+#studio-picture {
+    display: block;
+    width: 700px;
+    margin: 20px auto;
 }
 
-.about-me {
+.picture {
+    width: 700px;
+    margin: 20px 20px;
+}
+
+body {
+    font-family: obi-text-thin;
     color: #ffffff;
+    font-size: 250%;
+    padding: 100px;
+}
+
+.text-align-right {
     text-align: right;
-    margin: 150px auto;
-    font-size: 175%;
-    justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
-.film {
-    color: #ffffff;
-    text-align: right;
-    margin: 150px auto;
-    font-size: 150%;
-    justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.recording-mixing {
-    color: #ffffff;
+.text-align-left {
     text-align: left;
-    margin: 150px auto;
-    font-size: 150%;
+}
+
+.text-align-centre {
+    text-align: center;
+}
+
+.justify-space-around {
     justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .flex-container {
